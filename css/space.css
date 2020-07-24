@@ -1,0 +1,371 @@
+body{
+    background: url(https://cutewallpaper.org/21/space-backgrounds-1920x1080/Dark-Space-Background-64-pictures.jpg);
+}
+
+#menu{
+    width: 35px;
+    height: 30px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 10px 120px 0px 120px;
+    color: white;
+    font-family: 'Permanent Marker';
+}
+
+.nav li{
+    display: inline;
+    
+}
+
+.nav li a:hover{
+    color: #FF008F;
+}
+
+
+.nav{
+    transition: 0.3s ease;
+    display: none;
+}
+
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1{
+    transform: translateY(-4px);
+}
+
+#bar3{
+    transform: translateY(4px);
+}
+
+.change .bar{
+    background-color: #9EFF00;
+}
+
+.change #bar1{
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3{
+    transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change #bar2{
+    opacity: 0;
+}
+
+
+.change{
+    display: block;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Amatic SC';
+    font-size: 60px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Shadows Into Light';
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    line-height: 35px;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    width: 200px;
+    display: block;
+    margin: auto;
+    font-family: 'Open Sans Condensed';
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+.container{
+    text-align: center;
+}
+
+.container1{
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+
+.container2{
+    display: inline-block;
+    position: relative; 
+
+}
+
+#sun{
+    width: 200px;
+    height: 200px;
+    -webkit-animation: mover1 2s infinite alternate;
+    animation: mover1 2s infinite alternate;
+    animation-delay: 0.4s;
+}
+
+@-webkit-keyframes mover1{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-25px); }
+}
+
+@keyframes mover1{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-25px); }
+}
+
+
+.container3{
+    display: inline-block;
+    position: relative;
+    
+    
+}
+
+#mercury{
+    padding: 2px 2px 2px 2px;
+    width: 20px;
+    height: 20px;
+    -webkit-animation: mover2 2s infinite alternate;
+    animation: mover2 2s infinite alternate;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes mover2{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-110px); }
+}
+
+@keyframes mover2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-110px); }
+}
+
+
+
+.container4{
+    display: inline-block;
+    position: relative;
+   
+}
+
+#venus{
+    padding: 6px 6px 6px 6px;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: mover3 2s infinite alternate;
+    animation: mover3 2s infinite alternate;
+    animation-delay: 0.2s;
+}
+
+@-webkit-keyframes mover3{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+@keyframes mover3 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+.container5{
+    display: inline-block;
+    position: relative;
+    
+}
+
+#earth{
+
+    padding: 6px 6px 6px 6px;
+    width: 65px;
+    height: 65px;
+    -webkit-animation: mover4 2s infinite alternate;
+    animation: mover4 2s infinite alternate;
+    animation-delay: 0.5s;
+}
+
+@-webkit-keyframes mover4{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+@keyframes mover4{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+
+.container6{
+    display: inline-block;
+    position: relative;
+    
+}
+
+#mars{
+    width: 35px;
+    height: 35px;
+    -webkit-animation: mover5 2s infinite alternate ease-out;
+    animation: mover5 2s infinite alternate ease-out;
+    animation-delay: 0.2s;
+}
+
+@-webkit-keyframes mover5{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-47px); }
+}
+
+@keyframes mover5 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-47px); }
+}
+
+.container7{
+    display: inline-block;
+    position: relative;
+    
+}
+
+#jupiter{
+    width: 150px;
+    height: 150px;
+    -webkit-animation: mover6 3s infinite alternate ease-out;
+    animation: mover6 3s infinite alternate ease-out;
+    animation-delay: 0.8s;
+}
+
+@-webkit-keyframes mover6{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50px); }
+}
+
+@keyframes mover6{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50px); }
+}
+
+
+.container8{
+    display: inline-block;
+    position: relative;
+    
+}
+
+#saturn{
+    width: 140px;
+    height: 140px;
+    -webkit-animation: mover7 2s infinite alternate;
+    animation: mover7 2s infinite alternate;
+}
+
+@-webkit-keyframes mover7{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-65px); }
+}
+
+@keyframes mover7{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-65px); }
+}
+
+
+.container9{
+    display: inline-block;
+    position: relative;
+    
+}
+
+#uranus{
+    width: 100px;
+    height: 100px;
+    -webkit-animation: mover8 1.5s infinite alternate ease-out;
+    animation: mover8 1.5s infinite alternate ease-out;
+    animation-delay: 0.4s;
+}
+
+@-webkit-keyframes mover8{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+@keyframes mover8{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+
+.container10{
+    display: inline-block;
+}
+
+#neptune{
+    width: 95px;
+    height: 95px;
+    -webkit-animation: mover9 4s infinite alternate ease-out;
+    animation: mover9 4s infinite alternate ease-out;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes mover9{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-76px); }
+}
+
+@keyframes mover9 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-76px); }
+}
+
+
+#facts{
+    font-size: 50px;
+}
+
+
+#olympusMons{
+    display: block; 
+    margin: auto;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px sandybrown;
+}
+
+#venusOcean{
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px cyan;
+}
+
+#earthRise{
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px snow;
+}
+
+#universe{
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px fuchsia;
+}

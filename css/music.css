@@ -1,0 +1,169 @@
+
+#menu{
+    width: 35px;
+    height: 30px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 10px 123px 0px 123px;
+    color: #F92A2A;
+    font-family: 'Righteous';
+}
+
+.nav li{
+    display: inline;
+    
+}
+
+.nav li a:hover{
+    color: #FF9999;
+}
+
+
+.nav{
+    transition: 0.3s ease;
+    display: none;
+}
+
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: #3EBB3A;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1{
+    transform: translateY(-4px);
+}
+
+#bar3{
+    transform: translateY(4px);
+}
+
+.change .bar{
+    background-color: #DCDF21;
+}
+
+.change #bar1{
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3{
+    transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change #bar2{
+    opacity: 0;
+}
+
+
+.change{
+    display: block;
+}
+
+
+
+
+
+.container1{
+    text-align: center;
+}
+
+.con1{
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 30px;
+
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    margin: 100px;
+    font-family: 'Righteous';
+}
+
+#headFont{
+    font-family: 'Monoton';
+    font-size: 50px;
+    color: #C923D3;
+}
+
+h3{
+    font-family: 'Special Elite';
+    font-size: 25px;
+}
+
+p{
+    font-family: 'Amatic SC';
+    line-height: 23px;
+    font-size: 18px;
+    
+}
+
+
+.con2{
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
+
+.con3{
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
+
+#bjmPara{
+    margin-bottom: 100px;
+    font-family: 'Special Elite';
+}
+
+#redPara{
+    margin-bottom: 100px;
+    font-family: 'Special Elite';
+}
+
+#nirvPara{
+    margin-bottom: 100px;
+    font-family: 'Special Elite';
+}
+
+#radPara{
+    margin-bottom: 100px;
+    font-family: 'Special Elite';
+}
+
+#hendPara{
+    margin-bottom: 100px;
+    font-family: 'Special Elite';
+}
+
+#pagePara{
+    margin-bottom: 100px;
+    font-family: 'Special Elite';
+}
+
+#gilPara{
+    margin-bottom: 100px;
+    font-family: 'Special Elite';
+}
+
+#richPara{
+    margin-bottom: 100px;
+    font-family: 'Special Elite';
+}

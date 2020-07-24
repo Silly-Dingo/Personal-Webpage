@@ -1,0 +1,141 @@
+body{
+    background: url(https://ak.picdn.net/shutterstock/videos/3552230/thumb/7.jpg);
+}
+
+#menu{
+    width: 35px;
+    height: 30px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 4px 130px 0px 130px;
+    color: #B6611F;
+    font-family: 'Permanent Marker';
+}
+
+.nav li{
+    display: inline;
+    
+}
+
+.nav li a:hover{
+    color: #D95618;
+}
+
+
+.nav{
+    transition: 0.3s ease;
+    display: none;
+}
+
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: #DAAF5B;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1{
+    transform: translateY(-4px);
+}
+
+#bar3{
+    transform: translateY(4px);
+}
+
+.change .bar{
+    background-color: #1F7C3C;
+}
+
+.change #bar1{
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3{
+    transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change #bar2{
+    opacity: 0;
+}
+
+
+.change{
+    display: block;
+}
+
+.container1{
+    display: inline-block;
+}
+
+.container2{
+    text-align: center;
+}
+
+.con2{
+    display: inline-block;
+}
+
+@media screen and (max-width: 800px){ 
+    .con2 
+    {
+        font-weight: bold;
+        font-size: 20px;
+    
+    }
+    p{
+        width: 100%;
+    }
+}
+
+
+
+
+h1{
+    text-align: center;
+    margin-left: -280px;
+    margin-bottom: -10px;
+    font-family: 'Sue Ellen Francisco';
+    font-size: 40px;
+}
+
+h2{
+    
+    margin-left: 300px;
+    margin-top: 30px;
+    font-family: 'Amatic SC';
+    font-size: 30px;
+}
+
+p{
+    text-align: center;
+    margin-left: 30px;
+    width: 200px;
+    font-family: 'Give You Glory';
+    font-size: 18px;
+}
+
+
+.imgContainer{
+    text-align: center;
+}
+
+.imgCon{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#me1{
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px pink;
+}
+
+#me2{
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px pink;
+}

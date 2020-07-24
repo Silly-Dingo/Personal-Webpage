@@ -1,0 +1,167 @@
+#menu{
+    width: 35px;
+    height: 30px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 10px 110px 0px 110px;
+    color: black;
+    font-family: 'Lexend Zetta';
+}
+
+.nav li{
+    display: inline;
+    
+}
+
+.nav li a:hover{
+    color: #40CA6C;
+}
+
+
+.nav{
+    transition: 0.3s ease;
+    display: none;
+}
+
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1{
+    transform: translateY(-4px);
+}
+
+#bar3{
+    transform: translateY(4px);
+}
+
+.change .bar{
+    background-color: #FF7800;
+}
+
+.change #bar1{
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3{
+    transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change #bar2{
+    opacity: 0;
+}
+
+
+.change{
+    display: block;
+}
+
+
+
+
+
+
+
+
+.container1{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.container2{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.container3{
+    text-align: center;
+}
+
+.con3{
+    display: inline-block;
+    
+    margin: 50px;
+}
+
+.container4{
+    text-align: center;
+}
+
+.con4{
+    display: inline-block;
+    margin: 50px;
+}
+
+.conHeadText1{
+    margin: 0px 0px 0px 24px;
+}
+
+.conHeadText2{
+    
+    margin: 0px 38px 0px 20px;
+}
+
+
+
+.v1{
+    border-left: 3px solid black;
+    height: 300px;
+    position: absolute;
+    left: 642px;
+    bottom: -1550px;
+}
+
+.v2{
+    border-left: 3px solid black;
+    height: 330px;
+    position: absolute;
+    left: 642px;
+    bottom: -2070px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lexend Zetta';
+}
+
+h2{
+    text-align: center;
+    font-family: 'Fjalla One';
+}
+
+p{
+    text-align: center;
+    font-family: 'Caveat';
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+#future{
+    width: 100px;
+    height: 100px;
+}
+
+#outer{
+    overflow: hidden;
+}
+
+#dreams{
+    width: 200px;
+}
